@@ -13,7 +13,7 @@ build:
   number: 0
   skip: true  # [py<37]
   script:
-    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
+    - pushd css-inline && cargo-bundle-licenses --format yaml --output ../THIRDPARTY.yml && popd
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
