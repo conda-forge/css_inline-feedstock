@@ -1,5 +1,5 @@
 {% set name = "css_inline" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/css_inline-{{ version }}.tar.gz
-  sha256: d1a8366df670f7db78f5da9f8d4f500b3a5485bc945ec53e43c976b1626853ee
+  sha256: e7ac85949b740fee9fbbeffeb07187ad89b3828ac6dc84468480e77aed8e1849
 
 build:
   number: 0
