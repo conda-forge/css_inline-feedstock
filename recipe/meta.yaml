@@ -10,7 +10,7 @@ source:
   sha256: 24ec8c670babb6173d4267a2bfdf28412c9c4ab2b62f004d6462571fc8dea3b8
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
   script:
     - pushd css-inline && cargo-bundle-licenses --format yaml --output ../THIRDPARTY.yml && popd
