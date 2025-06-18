@@ -146,7 +146,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-css_inline-green.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-css__inline-green.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/css_inline.svg)](https://anaconda.org/conda-forge/css_inline) |
 
 Installing css_inline
 =====================
