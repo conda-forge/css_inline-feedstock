@@ -10,7 +10,7 @@ source:
   sha256: 13123c184189646041cc02a792a6b9ea346955d166f74d7b2837621ba17e22f3
 
 build:
-  number: 0
+  number: 1
   skip: match(python, "<3.9")
   script:
     - pushd css-inline && cargo-bundle-licenses --format yaml --output ../THIRDPARTY.yml && popd
