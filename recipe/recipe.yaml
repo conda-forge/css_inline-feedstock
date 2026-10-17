@@ -13,8 +13,8 @@ build:
   number: 0
   skip: match(python, "<3.9")
   script:
-    - pushd css-inline && cargo-bundle-licenses --format yaml --output ../THIRDPARTY.yml && popd
     - ${{ PYTHON }} -m pip install . -vv
+    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
 
 requirements:
   build:
