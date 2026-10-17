@@ -1,5 +1,5 @@
 context:
-  version: "0.22.1"
+  version: "0.23.0"
 
 package:
   name: css_inline
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/css_inline/css_inline-${{ version }}.tar.gz
-  sha256: 603fcc4b88a1337adc02761ca185c420dfc9a11865694c602f39f38b0f40812e
+  sha256: 400878761fd37699a0bd06d1b842b3941b0346baa051d70d29dd418a541d4a91
 
 build:
   number: 0
   skip: match(python, "<3.9")
   script:
-    - pushd css-inline && cargo-bundle-licenses --format yaml --output ../THIRDPARTY.yml && popd
     - ${{ PYTHON }} -m pip install . -vv
+    - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
 
 requirements:
   build:
