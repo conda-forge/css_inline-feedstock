@@ -1,5 +1,5 @@
 context:
-  version: "0.23.0"
+  version: "0.23.1"
 
 package:
   name: css_inline
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/css_inline/css_inline-${{ version }}.tar.gz
-  sha256: 400878761fd37699a0bd06d1b842b3941b0346baa051d70d29dd418a541d4a91
+  sha256: 304520d89c99472e5e26ce95726b93c0730102f13b11627fcf2c106c47d78d1d
 
 build:
   number: 0
